@@ -1,1 +1,13 @@
 <p class="square"></p>
+
+<ul class="listGroup">
+    <li *ngFor="let item of items" (click) = "onClick(item)">
+        {{item}}
+    </li>
+</ul>
+
+<div [ngSwitch]="current">
+    <p *ngSwitchCase="1">Main 1</p>
+    <p *ngSwitchCase="2">Info 2</p>
+    <p *ngSwitchCase="3">Info 3</p>
+</div>

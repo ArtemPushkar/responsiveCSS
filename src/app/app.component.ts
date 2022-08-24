@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'responsiveCSS';
+
+  items = [1, 2, 3];
+  current = 1;
+  onClick (number:number) {
+    this.current = number
+  }
 }
+

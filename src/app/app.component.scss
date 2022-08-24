@@ -8,4 +8,20 @@
 
 .square:hover {
 background-color: brown;
+animation: myAnimation;
+
+}
+
+@keyframes myAnimation {
+    from{
+        background-color: #fff;
+    }
+
+    50% {
+        background-color: rgb(255, 204, 0);
+    }
+
+    to{
+        background-color: brown;
+    }
 }
