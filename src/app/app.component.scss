@@ -7,13 +7,12 @@
 }
 
 .square:hover {
-background-color: brown;
-animation: myAnimation;
-
+    animation-name: myAnimation;
+    animation-duration: 5s;
 }
 
 @keyframes myAnimation {
-    from{
+    from { 
         background-color: #fff;
     }
 
@@ -21,7 +20,7 @@ animation: myAnimation;
         background-color: rgb(255, 204, 0);
     }
 
-    to{
+    to {
         background-color: brown;
     }
 }
