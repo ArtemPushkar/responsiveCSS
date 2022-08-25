@@ -24,3 +24,19 @@
         background-color: brown;
     }
 }
+
+.t-style, table * {
+    border: 1px solid black;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+.example {
+    font-size: 30px;
+    border: 1px solid black;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
